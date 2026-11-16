@@ -23,7 +23,7 @@ import { fileURLToPath } from 'node:url'
 const PACKAGE_DIR = dirname(fileURLToPath(import.meta.url))
 const ROUTE_PREFIX = '/fanren-theme'
 const PLUGIN_ID = '@local/fanren-theme'
-const PLUGIN_VERSION = '1.0.0'
+const PLUGIN_VERSION = '1.0.1'
 
 /** Last state report a browser sent through the status route (diagnostics only, never parsed as input). */
 let clientReport = null

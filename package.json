@@ -1,6 +1,6 @@
 {
   "name": "@local/fanren-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "description": "凡人·朱煞 — a Fanren xianxia theme for the DSH Web GUI: the bundled crimson-aura video as a full-window wallpaper, plus a vermilion-and-ink token palette, served with HTTP Range streaming.",
@@ -27,7 +27,8 @@
     "assets/fanren-wallpaper.mp4",
     "assets/fanren-poster.jpg",
     "README.md",
-    "NOTICE.md"
+    "NOTICE.md",
+    "assets/icon-180.png"
   ],
   "dsh": {
     "bundle": {

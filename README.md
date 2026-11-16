@@ -23,7 +23,13 @@ A DSH Web GUI theme plugin: the supplied xianxia clip as a full-window motion wa
 
 3. 安装完成后打开 **Settings → 凡人·朱煞**（设置 → 凡人·朱煞）。首次加载会自动开启壁纸与配色。
 
-需要固定版本时使用 `https://github.com/luozone001/dsh-fanren-theme.git#v1.0.0`。
+需要固定版本时使用 `https://github.com/luozone001/dsh-fanren-theme.git#v1.0.1`。
+
+不想从源码安装？Release 提供预构建 tarball，更快且不必克隆仓库，可直接粘进 **Add plugin**：
+
+```text
+https://github.com/luozone001/dsh-fanren-theme/releases/download/v1.0.1/dsh-fanren-theme-1.0.1.tgz
+```
 
 > 安装时 DSH 需要能访问 GitHub（pnpm 会克隆仓库，并一起拿到 19 MB 壁纸）。要求 DSH 0.2 内核（0.2.2-rc.3 已验证）与 Node.js 22.12+。
 
