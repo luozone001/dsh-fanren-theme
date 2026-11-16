@@ -26,7 +26,8 @@
     "icon.svg",
     "assets/fanren-wallpaper.mp4",
     "assets/fanren-poster.jpg",
-    "README.md"
+    "README.md",
+    "NOTICE.md"
   ],
   "dsh": {
     "bundle": {
