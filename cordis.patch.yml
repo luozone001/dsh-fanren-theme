@@ -1,0 +1,4 @@
+- insert:
+    - id: fanren-theme
+      name: '@local/fanren-theme'
+      config: {}

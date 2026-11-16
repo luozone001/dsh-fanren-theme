@@ -1,0 +1,54 @@
+{
+  "name": "@local/fanren-theme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "凡人·朱煞 — a Fanren xianxia theme for the DSH Web GUI: the bundled crimson-aura video as a full-window wallpaper, plus a vermilion-and-ink token palette, served with HTTP Range streaming.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "theme",
+    "wallpaper",
+    "fanren"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "assets/fanren-wallpaper.mp4",
+    "assets/fanren-poster.jpg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozone001/dsh-fanren-theme.git"
+  },
+  "homepage": "https://github.com/luozone001/dsh-fanren-theme#readme",
+  "bugs": {
+    "url": "https://github.com/luozone001/dsh-fanren-theme/issues"
+  }
+}

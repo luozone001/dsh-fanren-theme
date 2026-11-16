@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="Crimson mist over dark mountain ridges beneath a pale moon">
+  <defs>
+    <linearGradient id="fanren-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a0d12"/>
+      <stop offset="0.55" stop-color="#16070b"/>
+      <stop offset="1" stop-color="#070304"/>
+    </linearGradient>
+    <radialGradient id="fanren-moon-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f6e7da" stop-opacity="0.95"/>
+      <stop offset="0.42" stop-color="#e8b7a4" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#c4554a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fanren-ridge-far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c2426"/>
+      <stop offset="1" stop-color="#2a1013"/>
+    </linearGradient>
+    <linearGradient id="fanren-ridge-near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a53c37"/>
+      <stop offset="1" stop-color="#3a1417"/>
+    </linearGradient>
+    <linearGradient id="fanren-mist" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8b7a4" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#e8b7a4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e8b7a4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="300" fill="url(#fanren-sky)"/>
+  <circle cx="452" cy="96" r="86" fill="url(#fanren-moon-glow)"/>
+  <circle cx="452" cy="96" r="38" fill="#f2e0d2"/>
+  <circle cx="443" cy="88" r="30" fill="#f6e9df" opacity="0.55"/>
+  <path d="M0 214 74 150l42 34 58-62 64 58 54-40 70 62 56-48 86 58 54-36 82 44v80H0Z" fill="url(#fanren-ridge-far)"/>
+  <path d="M0 252 58 198l46 30 52-52 58 46 46-34 62 54 50-42 74 52 58-42 96 50v40H0Z" fill="url(#fanren-ridge-near)"/>
+  <path d="M0 262c90-16 170 6 250-2s150-22 240-8 110 10 150 4v44H0Z" fill="#1c090c"/>
+  <path d="M36 206c120-16 210 10 320-4s190-18 250-6" stroke="url(#fanren-mist)" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M90 238c110-12 190 8 300-2s150-12 190-4" stroke="url(#fanren-mist)" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <circle cx="128" cy="170" r="2.4" fill="#f0c984"/>
+  <circle cx="214" cy="132" r="1.8" fill="#ef8a72"/>
+  <circle cx="306" cy="188" r="2.1" fill="#f0c984"/>
+  <circle cx="392" cy="148" r="1.6" fill="#ef8a72"/>
+  <circle cx="486" cy="196" r="2.2" fill="#f0c984"/>
+  <circle cx="562" cy="128" r="1.7" fill="#ef8a72"/>
+  <circle cx="68" cy="118" r="1.5" fill="#ef8a72"/>
+  <path d="M566 232h34" stroke="#f0c984" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>

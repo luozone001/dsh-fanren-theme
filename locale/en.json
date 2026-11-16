@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Fanren · Crimson Omen",
+    "description": "Turns a crimson-aura xianxia clip into a full-window wallpaper behind the DSH Web GUI, paired with the Fanren · Crimson Omen vermilion-and-ink palette. Open Settings → Fanren · Crimson Omen to switch the wallpaper, tune the ink scrim and depth blur, or turn the palette off. The host streams the bundled 1080p30, audio-less copy (19 MB) from /fanren-theme/wallpaper.mp4 with HTTP Range support and pauses it in the background, and shows a still frame when the system asks for reduced motion. The palette is a theme-token override layer that never changes your Appearance theme, so turning it off restores that theme instantly. Wallpaper and palette switches live in this browser's localStorage and are restored on each load. Disabling the plugin removes the wallpaper and palette and restores your previous theme.",
+    "detail": "docs/DETAIL.md"
+  }
+}
