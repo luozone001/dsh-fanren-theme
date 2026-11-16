@@ -4,6 +4,8 @@
 
 仓库：<https://github.com/luozone001/dsh-fanren-theme>
 
+![壁纸画面（海报帧）](assets/fanren-poster.jpg)
+
 A DSH Web GUI theme plugin: the supplied xianxia clip as a full-window motion wallpaper, plus the vermilion-and-ink *Fanren · Crimson Omen* palette.
 
 ![朱红煞气中的山影与月轮](docs/preview.svg)
