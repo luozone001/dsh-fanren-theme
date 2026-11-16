@@ -10,6 +10,48 @@ A DSH Web GUI theme plugin: the supplied xianxia clip as a full-window motion wa
 
 ![朱红煞气中的山影与月轮](docs/preview.svg)
 
+## 安装 / Install
+
+### 方式一：从 GitHub 安装（推荐）
+
+1. 打开 DSH 侧边栏的 **Plugins**（插件）页，点 **Add plugin**（添加插件）。
+2. 把下面这行粘进输入框，点 **Install**：
+
+   ```text
+   https://github.com/luozone001/dsh-fanren-theme.git
+   ```
+
+3. 安装完成后打开 **Settings → 凡人·朱煞**（设置 → 凡人·朱煞）。首次加载会自动开启壁纸与配色。
+
+需要固定版本时使用 `https://github.com/luozone001/dsh-fanren-theme.git#v1.0.0`。
+
+> 安装时 DSH 需要能访问 GitHub（pnpm 会克隆仓库，并一起拿到 19 MB 壁纸）。要求 DSH 0.2 内核（0.2.2-rc.3 已验证）与 Node.js 22.12+。
+
+### 方式二：本地目录
+
+```sh
+git clone https://github.com/luozone001/dsh-fanren-theme.git
+```
+
+在 **Add plugin** 中填写克隆目录的绝对路径（也可以点选本地目录）。以 `link:` 方式安装时，请勿移动或删除该目录。
+
+<details>
+<summary>Web / CLI 安装</summary>
+
+非 Desktop 的 Web profile 可以用 CLI 一步安装（命令会同时把 bundle 加入 profile 的 `dsh.profile.bundles`）：
+
+```sh
+dsh plugin --profile web add https://github.com/luozone001/dsh-fanren-theme.git
+```
+
+Desktop 的 profile 由桌面 app 独占，请在 app 内的 **Plugins** 页安装，不要用 CLI 改 desktop profile。
+
+</details>
+
+### 关闭 / 卸载
+
+在 **Plugins** 页找到 **凡人·朱煞**（包名 `@local/fanren-theme`），关闭会立即移除壁纸与配色，卸载会连同包一起移除。
+
 ## 功能 / What it does
 
 - **整幅动态壁纸**：视频铺满窗口，位于三栏界面之后；静音循环、自动播放，窗口隐藏时暂停省电。默认墨色遮罩 46%、景深模糊 6px，均可在设置页实时调整。
@@ -17,16 +59,6 @@ A DSH Web GUI theme plugin: the supplied xianxia clip as a full-window motion wa
 - **独立设置页**：设置 → **凡人·朱煞**。开关壁纸、调整遮罩与模糊、开关配色、恢复默认；页内预览与实时效果一致（含遮罩和模糊），带播放/暂停控制。
 - **省电与无障碍**：窗口隐藏在后台时暂停播放；系统「减少动态效果」开启时只显示静帧，预览也默认暂停。
 - **HTTP Range 流式供给**：宿主从包内 `assets/fanren-wallpaper.mp4` 读取并支持单段 Range、`If-None-Match`、`HEAD`，首屏不必等整段 19 MB 下载完。
-
-## 安装 / Install
-
-这是一个本地目录插件包，用 DSH 的插件管理器安装：
-
-1. 打开 **设置 → 插件**（或插件页的“添加插件”），以本地目录方式选择本仓库中的 `fanren-theme/` 目录；或让 agent 以 `plugin_manager` 的 `install_bundle` 安装该绝对路径。
-2. 安装为链接目录时，请勿移动或删除 `fanren-theme/`，否则壁纸与插件随之失效。
-3. 生效后打开 **设置 → 凡人·朱煞** 调整；首次激活会自动启用壁纸与配色。
-
-要求：DSH 0.2 内核（本包在 0.2.2-rc.3 的 desktop profile 上开发与验证），能提供 `webServer` 与 Client 主题/插槽服务。
 
 ## 设置项 / Settings
 
